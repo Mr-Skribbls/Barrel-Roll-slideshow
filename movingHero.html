@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Changable Hero</title>
+	
+	<link rel="stylesheet" type="text/css" href="MovingHero.css" />
+	<!--[if !IE]><!-->
+	<![endif]-->
+	<!--[if IE]>
+
+	<![endif]-->
+	<script src="movingHero.js"></script>
+</head>
+<body>
+	<section id="backdrop">
+		<div id="containerPositioner"></div>
+		<section class="container">
+			<div id="wrap" class="show1">
+				<figure id="heroPic1"></figure>
+				<figure id="heroPic2"></figure>
+				<figure id="heroPic3"></figure>
+				<figure id="heroPic4"></figure>
+				<figure id="heroPic5"></figure>
+				<figure id="heroPic6"></figure>
+			</div>
+		</section>
+	
+		<div class="show">
+			<div onmouseover="selectionHover('show1',this)" onmouseout="selectionUnhover(1);"></div>
+			<div onmouseover="selectionHover('show2',this)" onmouseout="selectionUnhover(2);"></div>
+			<div onmouseover="selectionHover('show3',this)" onmouseout="selectionUnhover(3);"></div>
+			<div onmouseover="selectionHover('show4',this)" onmouseout="selectionUnhover(4);"></div>
+			<div onmouseover="selectionHover('show5',this)" onmouseout="selectionUnhover(5);"></div>
+			<div onmouseover="selectionHover('show6',this)" onmouseout="selectionUnhover(6);"></div>
+		</div>
+	<section>
+</body>
+</html>
